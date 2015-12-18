@@ -309,7 +309,7 @@ for i=1,8 do
 									   {"#7A5ADA", 0.2},
 									   {"#00FF00", 0.4},
 									   {"#FF0000",0.6}})
-	vicious.register(cores_graphs[i], vicious.widgets.cpu, "$"..(i+1).."",0.5)
+	vicious.register(cores_graphs[i], vicious.widgets.cpu, "$"..(i+1).."",0.3)
 end
 
 vicious.cache(vicious.widgets.net)
@@ -833,7 +833,7 @@ end
 autostart("urxvtd -q -f -o", 1)
 autostart("mpd", 1)
 autostart("xscreensaver -no-splash", 1)
-autostart("xflux -z 94596", 1)
+autostart("redshift -l 37.91:122.07", 1)
 autostart("udiskie -2", 1)
 autostart("compton -b", 1)
 autostart("~/Scripts/up.sh", 1)
