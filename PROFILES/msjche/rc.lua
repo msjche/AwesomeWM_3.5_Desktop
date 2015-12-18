@@ -271,7 +271,8 @@ volume_master = blingbling.volume({height = 33,
 									label ="Vol: $percent%", 
 									pulseaudio = true,
 									graph_color = "#7A5ADA99",
-									graph_line_color = "#7A5ADA33"
+									graph_line_color = "#7A5ADA33",
+									graph_background_color = "#C1C0DE20"
 									})
 volume_master:update_master()
 volume_master:set_master_control()
@@ -433,13 +434,13 @@ for s = 1, screen.count() do
     if s == 1 then right_layout:add(wibox.widget.systray()) end
     right_layout:add(separator)
     right_layout:add(mailicon)
-    right_layout:add(separator)
+    right_layout:add(space)
     right_layout:add(volume_master)
-    right_layout:add(separator)
+    right_layout:add(space)
     right_layout:add(uptimeicon)
     right_layout:add(space)
     right_layout:add(uptimewidget)
-    right_layout:add(separator)
+    right_layout:add(space)
     right_layout:add(mytextclock)
     right_layout:add(Default_launcher)
     right_layout:add(mylayoutbox[s])
