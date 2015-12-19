@@ -193,6 +193,22 @@ disks_label:set_text("DISKS")
 
 ----------------------------------------------------------------------------------------
 -- Filesystems
+boot_graph = blingbling.progress_graph({ height = 35,
+									width = 60,
+									v_margin = 5,
+									horizontal = true,
+									show_text = true,
+									font = "Droid Sans",
+									font_size = "12",
+									text_color = "#C1C0DE",
+									label ="boot $percent%", 
+									rounded_size = 0.3,
+									graph_color = "#7A5ADA99",
+									graph_background_color = "#00000033",
+									graph_line_color = "#7A5ADA33"
+								  })
+vicious.register(boot_graph, vicious.widgets.fs,'${/boot used_p}',2)
+
 home_graph = blingbling.progress_graph({ height = 35,
 									width = 60,
 									v_margin = 5,
@@ -266,7 +282,7 @@ volume_master = blingbling.volume({height = 33,
 									bar =true, 
 									show_text = true, 
 									font = "Droid Sans",
-									font_size = "12",
+									font_size = "13",
 									text_color = "#C1C0DE",
 									label ="Vol: $percent%", 
 									pulseaudio = true,
@@ -407,10 +423,12 @@ for s = 1, screen.count() do
     left_layout:add(hud_launcher)
     left_layout:add(kill_launcher)
     left_layout:add(mytaglist[s])
+    left_layout:add(mypromptbox[s])
     left_layout:add(space)
     left_layout:add(chrome_launcher)
     left_layout:add(firefox_launcher)
     left_layout:add(torbrowser_launcher)
+    left_layout:add(thunar_launcher)
     left_layout:add(libreoffice_launcher)
     left_layout:add(gimp_launcher)
     left_layout:add(thunderbird_launcher)
@@ -419,8 +437,6 @@ for s = 1, screen.count() do
     left_layout:add(skype_launcher)
     left_layout:add(telegram_launcher)
     left_layout:add(pycharm_launcher)
-    left_layout:add(space)
-    left_layout:add(mypromptbox[s])
     left_layout:add(space)
     left_layout:add(mpdicon)
     left_layout:add(mpdwidget)
@@ -479,6 +495,7 @@ for s = 1, screen.count() do
 	left_bottom_layout:add(space)
  	left_bottom_layout:add(disks_label)
 	left_bottom_layout:add(fshome)
+	left_bottom_layout:add(boot_graph)
 	left_bottom_layout:add(home_graph)
 	left_bottom_layout:add(root_graph)
 	left_bottom_layout:add(data_graph)
@@ -835,7 +852,6 @@ end
 autostart("urxvtd -q -f -o", 1)
 autostart("mpd", 1)
 autostart("xscreensaver -no-splash", 1)
-autostart("redshift -l 37.91:122.07", 1)
 autostart("udiskie -2", 1)
 autostart("compton -b", 1)
 autostart("~/Scripts/up.sh", 1)

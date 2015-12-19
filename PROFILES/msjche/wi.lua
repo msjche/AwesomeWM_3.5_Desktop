@@ -60,6 +60,7 @@ mylauncher = awful.widget.launcher({ image = icon_dir .. "awesome_icon.png",
 
 Default_launcher= awful.widget.launcher({ image = launcher_dir .. "tux.png", command = home .. "/Scripts/Theming/default.sh" })
 virtualbox_launcher= awful.widget.launcher({ image = launcher_dir .. "tux.png", command = "VirtualBox" })
+thunar_launcher= awful.widget.launcher({ image = launcher_dir .. "thunar.png", command = "thunar" })
 SSR_launcher= awful.widget.launcher({ image = launcher_dir .. "SSR.png", command = "simplescreenrecorder" })
 torbrowser_launcher = awful.widget.launcher({ image = launcher_dir .. "tor.png", command = "tor-browser-en" })
 steam_launcher = awful.widget.launcher({ image = launcher_dir .. "steam.png", command = "/home/msjche/Scripts/steam.sh" })
@@ -72,7 +73,7 @@ gimp_launcher = awful.widget.launcher({ image = launcher_dir .. "gimp.png", comm
 filezilla_launcher = awful.widget.launcher({ image = launcher_dir .. "filezilla.png", command = "filezilla" })
 chrome_launcher = awful.widget.launcher({ image = launcher_dir .. "chrome.png", command = "google-chrome-stable" })
 firefox_launcher = awful.widget.launcher({ image = launcher_dir .. "firefox.png", command = "firefox" })
-telegram_launcher= awful.widget.launcher({ image = launcher_dir .. "telegram.png", command = "telegram" })
+telegram_launcher= awful.widget.launcher({ image = launcher_dir .. "telegram.png", command = "telegram-desktop" })
 pycharm_launcher= awful.widget.launcher({ image = launcher_dir .. "pycharm.png", command = "pycharm" })
 skype_launcher= awful.widget.launcher({ image = launcher_dir .. "skype.png", command = "skype" })
 youtube_dl= awful.widget.launcher({ image = launcher_dir .. "youtube.png", command = "/home/msjche/Scripts/youtube_download.sh" })
