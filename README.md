@@ -1,4 +1,4 @@
-# AwesomeWM_Laptop
+# AwesomeWM_Desktop
 
 I've created a folder "PROFILES" that contain folders, widgets and libraries for two separate AwesomeWM configurations
 
