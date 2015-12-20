@@ -7,7 +7,7 @@ Since these two configs do not use the same themes or paths, i've decided to mov
 Installation:
 
 	git clone https://github.com/msjche/AwesomeWM_Desktop.git ~/.config/awesome
-	cd ~/.config/awesome && cp -r AwesomeWM_Laptop/* .
+	cd ~/.config/awesome && cp -r AwesomeWM_Desktop/* .
 	rm -r AwesomeWM_Desktotop
 
 if you want any specific PROFILE:
