@@ -8,7 +8,7 @@ Installation:
 
 	git clone https://github.com/msjche/AwesomeWM_Desktop.git ~/.config/awesome
 	cd ~/.config/awesome && cp -r AwesomeWM_Desktop/* .
-	rm -r AwesomeWM_Desktotop
+	rm -r AwesomeWM_Desktop
 
 if you want any specific PROFILE:
 
