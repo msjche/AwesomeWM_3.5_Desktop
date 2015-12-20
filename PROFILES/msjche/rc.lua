@@ -323,9 +323,9 @@ for i=1,8 do
 	cores_graphs[i] = blingbling.wlourf_circle_graph( cores_graph_conf)
 	cores_graphs[i]:set_graph_colors({{"#C1C0DE",0}, --all value > 0 will be displayed using this color
 									   {"#A0A0F0", 0.1},
-									   {"#7A5ADA", 0.2},
-									   {"#00FF00", 0.4},
-									   {"#FF0000",0.6}})
+									   {"#7A5ADA", 0.3},
+									   {"#00FF00", 0.5},
+									   {"#FF0000",0.7}})
 	vicious.register(cores_graphs[i], vicious.widgets.cpu, "$"..(i+1).."",0.3)
 end
 
@@ -339,7 +339,7 @@ netwidget = blingbling.net({interface = "eno1",
 							show_text = true,
 							font_size = "12",
 							text_color = "#C1C0DE",
-							width = 50,
+							width = 60,
 							height = 45,
 							graph_color = "#7A5ADA99",
 							graph_line_color = "#9F9F9F99",
