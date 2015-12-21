@@ -101,8 +101,8 @@ end
 -- {{{ Tags
 
 tags = 	{
-	names = { "➊", "➋", "➌", "➍", "➎", "➏", "➐", "➑", "➒" },
---	names = { "1", "2", "3", "4", "5", "6", "7", "8", "9" },
+--	names = { "➊", "➋", "➌", "➍", "➎", "➏", "➐", "➑", "➒" },
+	names = { "WEB", "POR", "NEW", "IRC", "MUS", "PIR", "MED", "GAM", "MIS" },
 	layout = { layouts[10], layouts[7], layouts[8], layouts[10], layouts[4], layouts[5], layouts[10], layouts[1], layouts [1] }
 		}
 for s = 1, screen.count() do
@@ -426,18 +426,9 @@ for s = 1, screen.count() do
     left_layout:add(mytaglist[s])
     left_layout:add(mypromptbox[s])
     left_layout:add(space)
-    left_layout:add(chrome_launcher)
-    left_layout:add(firefox_launcher)
-    left_layout:add(torbrowser_launcher)
-    left_layout:add(thunar_launcher)
-    left_layout:add(libreoffice_launcher)
-    left_layout:add(gimp_launcher)
-    left_layout:add(thunderbird_launcher)
     left_layout:add(steam_launcher)
     left_layout:add(SSR_launcher)
-    left_layout:add(skype_launcher)
     left_layout:add(telegram_launcher)
-    left_layout:add(pycharm_launcher)
     left_layout:add(space)
     left_layout:add(mpdicon)
     left_layout:add(mpdwidget)
