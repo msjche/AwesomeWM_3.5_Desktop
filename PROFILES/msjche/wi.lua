@@ -73,6 +73,7 @@ gimp_launcher = awful.widget.launcher({ image = launcher_dir .. "gimp.png", comm
 filezilla_launcher = awful.widget.launcher({ image = launcher_dir .. "filezilla.png", command = "filezilla" })
 chrome_launcher = awful.widget.launcher({ image = launcher_dir .. "chrome.png", command = "google-chrome-stable" })
 firefox_launcher = awful.widget.launcher({ image = launcher_dir .. "firefox.png", command = "firefox" })
+qutebrowser_launcher = awful.widget.launcher({ image = launcher_dir .. "qutebrowser.png", command = "qutebrowser" })
 telegram_launcher= awful.widget.launcher({ image = launcher_dir .. "telegram.png", command = "telegram-desktop" })
 pycharm_launcher= awful.widget.launcher({ image = launcher_dir .. "pycharm.png", command = "pycharm" })
 skype_launcher= awful.widget.launcher({ image = launcher_dir .. "skype.png", command = "skype" })

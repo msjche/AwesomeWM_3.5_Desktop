@@ -55,7 +55,7 @@ beautiful.init(active_theme .. "/theme.lua")
 terminal 	= "urxvt"
 editor 		= os.getenv("EDITOR") or "vim"
 editor_cmd 	= terminal .. " -e " .. editor
-browser 	= "luakit"
+browser 	= "qutebrowser"
 mail 		= terminal .. " -e mutt "
 musicplr 	= terminal .. " -g l30x34-320+16 -e ncmpcpp "
 
@@ -338,7 +338,7 @@ vicious.cache(vicious.widgets.net)
 
 netwidget = blingbling.net({interface = "eno1",
 							show_text = true,
-							font_size = "12",
+							font_size = "11",
 							text_color = "#C1C0DE",
 							width = 60,
 							height = 45,
@@ -426,10 +426,12 @@ for s = 1, screen.count() do
     left_layout:add(mytaglist[s])
     left_layout:add(mypromptbox[s])
     left_layout:add(space)
-    left_layout:add(chrome_launcher)
-    left_layout:add(firefox_launcher)
+--    left_layout:add(chrome_launcher)
+    left_layout:add(qutebrowser_launcher)
+    left_layout:add(ferefox_launcher)
     left_layout:add(libreoffice_launcher)
-    left_layout:add(gimp_launcher)
+    left_layout:add(thunar_launcher)
+--    left_layout:add(gimp_launcher)
     left_layout:add(steam_launcher)
     left_layout:add(SSR_launcher)
     left_layout:add(telegram_launcher)
@@ -625,7 +627,7 @@ globalkeys = awful.util.table.join(
 	awful.key({ modkey }, "Escape", function() awful.util.spawn("poweroff") end),
 	awful.key({ altkey }, "m", function () awful.util.spawn_with_shell( "urxvt -e htop -s PERCENT_MEM") end),
 	awful.key({ altkey }, "s", function () awful.util.spawn_with_shell( "urxvt -e glances") end),
-	awful.key({ modkey }, "b", function () awful.util.spawn( "luakit") end),
+	awful.key({ modkey }, "b", function () awful.util.spawn( "qutebrowser") end),
 	awful.key({ modkey, "Shift" }, "b", function () awful.util.spawn( "firefox") end),
 	awful.key({ modkey }, "w", function () awful.util.spawn( "nmcli_dmenu") end),
 	awful.key({ modkey }, "v", function () awful.util.spawn( "kodi") end),
