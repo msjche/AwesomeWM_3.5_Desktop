@@ -457,7 +457,7 @@ for s = 1, screen.count() do
     right_layout:add(uptimewidget)
     right_layout:add(space)
     right_layout:add(mytextclock)
-    right_layout:add(Default_launcher)
+--    right_layout:add(Default_launcher)
     right_layout:add(mylayoutbox[s])
 
     -- Now bring it all together (with the tasklist in the middle)
