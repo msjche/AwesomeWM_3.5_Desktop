@@ -149,10 +149,10 @@ cpu_label = blingbling.text_box({ height = 35,
 									v_margin = 5,
 									font = "Droid Sans Bold",
 									font_size = "20",
-									text_color = "#7A5ADA",
-									background_color = "#00000033",
-									background_text_border = "#00FF00",
-									text_background_color = "#C1C0DE33"
+									text_color = "#00FF00",
+									background_color = "#2D2D2D",
+									background_text_border = "#FF0000",
+									text_background_color = "#7A5ADA75"
 								  })
 cpu_label:set_text("CPU")
 
@@ -161,10 +161,10 @@ net_label = blingbling.text_box({ height = 35,
 									v_margin = 5,
 									font = "Droid Sans Bold",
 									font_size = "17",
-									text_color = "#7A5ADA",
-									background_color = "#00000033",
-									background_text_border = "#00FF00",
-									text_background_color = "#C1C0DE33"
+									text_color = "#00FF00",
+									background_color = "#2D2D2D",
+									background_text_border = "#FF0000",
+									text_background_color = "#7A5ADA75"
 								  })
 net_label:set_text("NET")
 
@@ -173,10 +173,10 @@ mem_label = blingbling.text_box({ height = 35,
 									v_margin = 5,
 									font = "Droid Sans Bold",
 									font_size = "17",
-									text_color = "#7A5ADA",
-									background_color = "#00000033",
-									background_text_border = "#00FF00",
-									text_background_color = "#C1C0DE33"
+									text_color = "#00FF00",
+									background_color = "#2D2D2D",
+									background_text_border = "#FF0000",
+									text_background_color = "#7A5ADA75"
 								  })
 mem_label:set_text("MEM")
 
@@ -185,10 +185,10 @@ disks_label = blingbling.text_box({ height = 35,
 									v_margin = 5,
 									font = "Droid Sans Bold",
 									font_size = "14",
-									text_color = "#7A5ADA",
-									background_color = "#00000033",
-									background_text_border = "#00FF00",
-									text_background_color = "#C1C0DE33"
+									text_color = "#00FF00",
+									background_color = "#2D2D2D",
+									background_text_border = "#FF0000",
+									text_background_color = "#7A5ADA75"
 								  })
 disks_label:set_text("DISKS")
 
