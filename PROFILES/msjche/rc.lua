@@ -150,7 +150,7 @@ cpu_label = blingbling.text_box({ height = 35,
 									font = "Droid Sans Bold",
 									font_size = "20",
 									text_color = "#00FF00",
-									background_color = "#2D2D2D",
+									background_color = "#121212",
 									background_text_border = "#FF0000",
 									text_background_color = "#7A5ADA75"
 								  })
@@ -162,7 +162,7 @@ net_label = blingbling.text_box({ height = 35,
 									font = "Droid Sans Bold",
 									font_size = "17",
 									text_color = "#00FF00",
-									background_color = "#2D2D2D",
+									background_color = "#121212",
 									background_text_border = "#FF0000",
 									text_background_color = "#7A5ADA75"
 								  })
@@ -174,7 +174,7 @@ mem_label = blingbling.text_box({ height = 35,
 									font = "Droid Sans Bold",
 									font_size = "17",
 									text_color = "#00FF00",
-									background_color = "#2D2D2D",
+									background_color = "#121212",
 									background_text_border = "#FF0000",
 									text_background_color = "#7A5ADA75"
 								  })
@@ -186,7 +186,7 @@ disks_label = blingbling.text_box({ height = 35,
 									font = "Droid Sans Bold",
 									font_size = "14",
 									text_color = "#00FF00",
-									background_color = "#2D2D2D",
+									background_color = "#121212",
 									background_text_border = "#FF0000",
 									text_background_color = "#7A5ADA75"
 								  })
@@ -284,10 +284,10 @@ volume_master = blingbling.volume({height = 33,
 									show_text = true, 
 									font = "Droid Sans",
 									font_size = "14",
-									text_color = "#C1C0DE",
+									text_color = "#00FF00",
 									label ="Vol: $percent%", 
 									pulseaudio = true,
-									graph_color = "#7A5ADA99",
+									graph_color = "#7A5ADA",
 									graph_line_color = "#7A5ADA33",
 									graph_background_color = "#C1C0DE20"
 									})
@@ -428,12 +428,13 @@ for s = 1, screen.count() do
     left_layout:add(space)
     left_layout:add(chrome_launcher)
 --    left_layout:add(qutebrowser_launcher)
---    left_layout:add(firefox_launcher)
+    left_layout:add(firefox_launcher)
     left_layout:add(libreoffice_launcher)
     left_layout:add(thunar_launcher)
     left_layout:add(gimp_launcher)
     left_layout:add(steam_launcher)
     left_layout:add(SSR_launcher)
+    left_layout:add(mkvtoolnix_launcher)
     left_layout:add(telegram_launcher)
     left_layout:add(skype_launcher)
     left_layout:add(space)

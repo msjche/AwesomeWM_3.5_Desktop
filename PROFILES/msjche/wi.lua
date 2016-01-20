@@ -72,6 +72,7 @@ hud_launcher = awful.widget.launcher({ image = launcher_dir .. "hud.png", comman
 gimp_launcher = awful.widget.launcher({ image = launcher_dir .. "gimp.png", command = "gimp" })
 filezilla_launcher = awful.widget.launcher({ image = launcher_dir .. "filezilla.png", command = "filezilla" })
 chrome_launcher = awful.widget.launcher({ image = launcher_dir .. "chrome.png", command = "google-chrome-stable" })
+mkvtoolnix_launcher = awful.widget.launcher({ image = launcher_dir .. "mkvtoolnix.png", command = "mkvtoolnix-gui" })
 firefox_launcher = awful.widget.launcher({ image = launcher_dir .. "firefox.png", command = "firefox" })
 qutebrowser_launcher = awful.widget.launcher({ image = launcher_dir .. "qutebrowser.png", command = "qutebrowser" })
 telegram_launcher= awful.widget.launcher({ image = launcher_dir .. "telegram.png", command = "telegram-desktop" })
