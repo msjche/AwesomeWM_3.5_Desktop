@@ -59,8 +59,8 @@ theme.border_normal                 = "#121212"
 theme.border_focus                  = "#747474"
 theme.titlebar_bg_focus             = "#292929"
 
-theme.taglist_fg_focus              = "#00FF00"
-theme.taglist_bg_focus              = "#7A5ADA75"
+theme.taglist_fg_focus              = "#DCDCCC"
+theme.taglist_bg_focus              = "#2D2D2D"
 theme.menu_height                   = "30"
 theme.menu_width                    = "80"
 

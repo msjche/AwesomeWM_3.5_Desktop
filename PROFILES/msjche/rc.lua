@@ -149,10 +149,10 @@ cpu_label = blingbling.text_box({ height = 35,
 									v_margin = 5,
 									font = "Droid Sans Bold",
 									font_size = "20",
-									text_color = "#00FF00",
+									text_color = "#DCDCCC",
 									background_color = "#121212",
 									background_text_border = "#FF0000",
-									text_background_color = "#7A5ADA75"
+									text_background_color = "#7A5ADA"
 								  })
 cpu_label:set_text("CPU")
 
@@ -161,10 +161,10 @@ net_label = blingbling.text_box({ height = 35,
 									v_margin = 5,
 									font = "Droid Sans Bold",
 									font_size = "17",
-									text_color = "#00FF00",
+									text_color = "#DCDCCC",
 									background_color = "#121212",
 									background_text_border = "#FF0000",
-									text_background_color = "#7A5ADA75"
+									text_background_color = "#7A5ADA"
 								  })
 net_label:set_text("NET")
 
@@ -173,10 +173,10 @@ mem_label = blingbling.text_box({ height = 35,
 									v_margin = 5,
 									font = "Droid Sans Bold",
 									font_size = "17",
-									text_color = "#00FF00",
+									text_color = "#DCDCCC",
 									background_color = "#121212",
 									background_text_border = "#FF0000",
-									text_background_color = "#7A5ADA75"
+									text_background_color = "#7A5ADA"
 								  })
 mem_label:set_text("MEM")
 
@@ -185,10 +185,10 @@ disks_label = blingbling.text_box({ height = 35,
 									v_margin = 5,
 									font = "Droid Sans Bold",
 									font_size = "14",
-									text_color = "#00FF00",
+									text_color = "#DCDCCC",
 									background_color = "#121212",
 									background_text_border = "#FF0000",
-									text_background_color = "#7A5ADA75"
+									text_background_color = "#7A5ADA"
 								  })
 disks_label:set_text("DISKS")
 
@@ -284,7 +284,7 @@ volume_master = blingbling.volume({height = 33,
 									show_text = true, 
 									font = "Droid Sans",
 									font_size = "14",
-									text_color = "#00FF00",
+									text_color = "#DCDCCC",
 									label ="Vol: $percent%", 
 									pulseaudio = true,
 									graph_color = "#7A5ADA",
