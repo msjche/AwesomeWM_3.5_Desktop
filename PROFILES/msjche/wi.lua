@@ -78,6 +78,7 @@ qutebrowser_launcher = awful.widget.launcher({ image = launcher_dir .. "qutebrow
 telegram_launcher= awful.widget.launcher({ image = launcher_dir .. "telegram.png", command = "telegram-desktop" })
 pycharm_launcher= awful.widget.launcher({ image = launcher_dir .. "pycharm.png", command = "pycharm" })
 skype_launcher= awful.widget.launcher({ image = launcher_dir .. "skype.png", command = "skype" })
+obs_launcher= awful.widget.launcher({ image = launcher_dir .. "obs.png", command = "obs" })
 youtube_dl= awful.widget.launcher({ image = launcher_dir .. "youtube.png", command = "/home/msjche/Scripts/youtube_download.sh" })
 
 ------------------------------------------------------------------------------------------

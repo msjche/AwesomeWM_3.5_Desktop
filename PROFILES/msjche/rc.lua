@@ -435,6 +435,7 @@ for s = 1, screen.count() do
     left_layout:add(steam_launcher)
     left_layout:add(SSR_launcher)
     left_layout:add(mkvtoolnix_launcher)
+    left_layout:add(obs_launcher)
     left_layout:add(telegram_launcher)
     left_layout:add(skype_launcher)
     left_layout:add(space)
