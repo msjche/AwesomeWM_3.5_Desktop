@@ -53,10 +53,10 @@ local math         = { floor  = math.floor }
 launcher_dir = active_theme .. "/icons/launchers/"
 icon_dir = active_theme .. "/icons/"
 
-mymainmenu = awful.menu.new({ items = require("menugen").build_menu(),
-                              theme = { height = 25, width = 200 }})
-mylauncher = awful.widget.launcher({ image = icon_dir .. "awesome_icon.png",
-                                     menu = mymainmenu })
+--mymainmenu = awful.menu.new({ items = require("menugen").build_menu(),
+--                              theme = { height = 25, width = 200 }})
+--mylauncher = awful.widget.launcher({ image = icon_dir .. "awesome_icon.png",
+--                                     menu = mymainmenu })
 
 Default_launcher= awful.widget.launcher({ image = launcher_dir .. "tux.png", command = home .. "/Scripts/Theming/default.sh" })
 virtualbox_launcher= awful.widget.launcher({ image = launcher_dir .. "tux.png", command = "VirtualBox" })
@@ -72,13 +72,13 @@ hud_launcher = awful.widget.launcher({ image = launcher_dir .. "hud.png", comman
 gimp_launcher = awful.widget.launcher({ image = launcher_dir .. "gimp.png", command = "gimp" })
 filezilla_launcher = awful.widget.launcher({ image = launcher_dir .. "filezilla.png", command = "filezilla" })
 chrome_launcher = awful.widget.launcher({ image = launcher_dir .. "chrome.png", command = "google-chrome-stable" })
-mkvtoolnix_launcher = awful.widget.launcher({ image = launcher_dir .. "mkvtoolnix.png", command = "mkvtoolnix-gui" })
+--mkvtoolnix_launcher = awful.widget.launcher({ image = launcher_dir .. "mkvtoolnix.png", command = "mkvtoolnix-gui" })
 firefox_launcher = awful.widget.launcher({ image = launcher_dir .. "firefox.png", command = "firefox" })
-qutebrowser_launcher = awful.widget.launcher({ image = launcher_dir .. "qutebrowser.png", command = "qutebrowser" })
+--qutebrowser_launcher = awful.widget.launcher({ image = launcher_dir .. "qutebrowser.png", command = "qutebrowser" })
 telegram_launcher= awful.widget.launcher({ image = launcher_dir .. "telegram.png", command = "telegram-desktop" })
 pycharm_launcher= awful.widget.launcher({ image = launcher_dir .. "pycharm.png", command = "pycharm" })
 skype_launcher= awful.widget.launcher({ image = launcher_dir .. "skype.png", command = "skype" })
-obs_launcher= awful.widget.launcher({ image = launcher_dir .. "obs.png", command = "obs" })
+--obs_launcher= awful.widget.launcher({ image = launcher_dir .. "obs.png", command = "obs" })
 youtube_dl= awful.widget.launcher({ image = launcher_dir .. "youtube.png", command = "/home/msjche/Scripts/youtube_download.sh" })
 
 ------------------------------------------------------------------------------------------
